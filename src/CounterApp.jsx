@@ -6,7 +6,10 @@ function CounterApp() {
         setCounter(counter + 1)
     };
     const counterDecrease = () => {
-         setCounter(counter - 1)
+        setCounter(counter - 1)
+    };
+    const resetCounter = () => {
+        setCounter(0)
     };
 
     return (
@@ -15,6 +18,9 @@ function CounterApp() {
             <div className="flex gap-x-2">
                 <button onClick={counterIncrease} className="cursor-pointer bg-white text-red-500  py-2 px-3 font-bold rounded">Increment</button>
                 <button onClick={counterDecrease} disabled={counter === 0} className="cursor-pointer bg-white text-red-500 px-3 py-2 font-bold rounded">Decrement</button>
+            </div>
+            <div>
+                <button onClick={resetCounter} className="cursor-pointer bg-white text-red-500  py-2 px-10 font-bold rounded">Reset</button>
             </div>
         </div>
     )
