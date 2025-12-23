@@ -1,27 +1,33 @@
-React Counter App
+# 🔢 React Counter App
 
-📌 Description
+## 📌 Description
+A simple and clean **Counter Application** built using **React** and styled with **Tailwind CSS**.  
+This project demonstrates core React concepts such as **state management**, **component re-rendering**, and **event handling**.
 
-A simple Counter Application built using React and styled with Tailwind CSS.This project demonstrates core React concepts like state management, component re-rendering, and event handling.
+---
 
-🚀 Features
+## 🚀 Features
+- ✅ Increment, decrement, and reset counter
+- 🚫 Decrement button disabled when counter is zero
+- 🎨 Clean, minimal, and responsive UI
+- ⚡ Fast and lightweight
 
-✅ Increment, decrement, and reset counter
+---
 
-✅ Decrement disabled when value is zero
+## 🛠️ Tech Stack
+- ⚛️ **React** (Functional Components & Hooks)
+- 🎨 **Tailwind CSS**
+- 📜 **JavaScript (ES6+)**
+- 🌐 **HTML5**
 
-✅ Clean and responsive UI
+---
 
-🛠️ Tech Stack
+## 🎯 Purpose
+This project is built for **learning and practicing React state management**  
+and **styling with Tailwind CSS**.
 
-✅ React (Functional Components & Hooks)
+---
 
-✅ Tailwind CSS
+## 📸 Preview
+> Clean white UI with modern buttons and smooth interactions.
 
-✅ JavaScript (ES6+)
-
-✅ HTML5
-
-🎯 Purpose
-
-Built for learning and practicing React state management and Tailwind CSS styling.
